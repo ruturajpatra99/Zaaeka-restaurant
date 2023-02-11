@@ -17,7 +17,7 @@ const NavIcon = () => {
           })}
         </div>
       </div>
-      <div className='fixed right-0 top-[20%] z-20 cursor-pointer bg-black' 
+      <div className='fixed right-0 top-[20%] z-20 cursor-pointer bg-black' id='dash1'
       onClick={() => {
         setToggle(!toggle);
       }}>
